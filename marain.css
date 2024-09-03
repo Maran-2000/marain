@@ -1,0 +1,207 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.topbar-left{
+    width: 50%;
+    text-align: left;
+    padding: 10px;
+    float: left;
+
+}
+.a{
+    padding: 5px;
+    float: left;
+}
+.b{
+    padding: 5px;
+    float: left;
+}
+.c{
+    padding: 5px;
+    float: left;
+}
+
+.topbar-right{
+    width: 50%;
+    text-align: right;
+    float: left;
+    padding: 20px;
+}
+.topbar::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.nav{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.nav li{
+    display: inline;
+    padding: 20px;
+}
+.slider img{
+    width: 100%;
+
+}
+.content-left{
+    width: 50%;
+    float: left;
+}
+.content-right{
+    width: 50%;
+    float: left;
+}
+h5{
+    text-align: right;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+h4{
+    padding: 20px;
+    text-align: center;
+}
+p{
+    padding: 15px;
+    font-size: 20px;
+}
+.content{
+    clear: both;
+    display: table;
+    content: "";
+}
+.head{
+    width: 100%;
+    background-color: gray;
+}
+.photo{
+    width: 25%;
+    float: left;
+}
+.navigation{
+    clear: both;
+    display: table;
+    content: "";
+}
+.picture{
+    width: 33.3%;
+    float: left;
+    padding: 70px;
+}
+.footer{
+    clear: both;
+    display: table;
+    content: "";
+}
+.pic{
+    width: 25%;
+    float: left;
+}
+.header{
+    clear: both;
+    display: table;
+    content: "";
+}
+.add{
+    width: 25%;
+    float: left;
+    padding: 2px;
+}
+.adverstisment{
+    clear: both;
+    display: table;
+    content: "";
+}
+.drawing{
+    width: 25%;
+    float: left;
+}
+.drawing li{
+    padding: 10px;
+}
+.showcase{
+    clear: both;
+    display: table;
+    content: "";
+}
+button{
+    background-color: crimson;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+}
+@media (max-width:800px) {
+    .topbar-left,.topbar-left
+    {
+        width: 100%;
+    }
+    .nav li
+    {
+        display: block;
+    }
+    .slider
+    {
+        width: 80%;
+    }
+    .content-left, .content-right
+    {
+        width: 80%;
+    }
+    .head
+    {
+        width: 100%;
+    }
+    .photo
+    {
+        width: 100%;
+    }
+    p
+    {
+        width: 100%;
+
+    }
+    h4
+    {
+        width: 100%;
+    }
+    h1
+    {
+        width: 100%;
+    }
+    h2
+    {
+        width: 100%;
+    }
+    .picture
+    {
+        width: 100%;
+    }
+    .picture{
+        width: 100%;
+    }
+    .add
+    {
+        width: 100%;
+
+    }
+    .drawing
+    {
+        width: 100%;
+    }
+    .button
+    {
+        width: 100%;
+    }
+}
